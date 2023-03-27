@@ -3,8 +3,6 @@
 import { configureStore, createSlice } from "@reduxjs/toolkit";
 import commentImg from '../assets/img/img-comment-author.jpg';
 import productImg from '../assets/img/img-product.jpg';
-import musicImg from '../assets/img/img-music.jpg';
-import music from '../assets/audio/audio-music.mp3';
 
 // Creating Slice
 const appSlice = createSlice({
@@ -25,23 +23,12 @@ const appSlice = createSlice({
             isLiked: false,
             isInBag: false,
             img: productImg
-        },
-        music: {
-            cover: musicImg,
-            musicAudio: music,
-            trackName: 'Illegal',
-            singerName: 'Chvrsi',
-            timePassed: 0,
-            time: 193200,
-            isPlaying: false,
         }
     },
     reducers: {
         setProductSizes(state, action) {},
         setProductLiked(state, action) {},
         setProductWithBag(state, action) {},
-        setMusicPlayingState(state, action) {},
-        setMusicPassedTime(state, action) {},
     }
 })
 

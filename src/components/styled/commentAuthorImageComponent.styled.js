@@ -4,8 +4,8 @@ import styled from 'styled-components';
 
 // Creating Comment Author Image Styled Component
 const CommentAuthorImageComponent = styled.img`
-  width: 20%;
-  height: 100%;
+  width: 300px;
+  height: 300px;
 `
 
 // Exporting 'CommentAuthorImageComponent' Variable

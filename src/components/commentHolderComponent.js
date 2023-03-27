@@ -21,7 +21,7 @@ export default function CommentHolderComponent() {
                 <ParagraphComponent fontSize={15} fontWeight={400} color={'white'} lineHeight={25} marginTop={0} marginBottom={0}>{commentState.content}</ParagraphComponent>
                 <div>
                     <TextComponent fontSize={18} fontWeight={300} color={({theme}) => theme.colors.cyan500} marginTop={0} marginBottom={10}>{commentState.author}</TextComponent>
-                    <TextComponent fontSize={18} fontWeight={300} color={({theme}) => theme.colors.slate600} marginTop={0} marginBottom={18}>{commentState.job}, {commentState.company}</TextComponent>
+                    <TextComponent fontSize={18} fontWeight={300} color={({theme}) => theme.colors.slate600} marginTop={0} marginBottom={0}>{commentState.job}, {commentState.company}</TextComponent>
                 </div>
             </CommentContentComponent>
         </CommentComponent>

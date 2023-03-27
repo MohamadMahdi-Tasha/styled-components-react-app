@@ -6,6 +6,7 @@ import styled from 'styled-components';
 const CommentAuthorImageComponent = styled.img`
   width: 300px;
   height: 300px;
+  object-fit: cover;
 `
 
 // Exporting 'CommentAuthorImageComponent' Variable

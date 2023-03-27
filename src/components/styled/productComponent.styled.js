@@ -2,14 +2,14 @@
 // Importing Part
 import styled from 'styled-components';
 
-// Creating Comment Styled Component
-const CommentComponent = styled.div`
+// Creating Product Component Styled Component
+const ProductComponent = styled.div`
+  margin-bottom: 40px;
   border-radius: 1rem;
   background-color: ${({theme}) => theme.colors.slate800};
   overflow: hidden;
   display: flex;
-  margin-bottom: 40px;
 `
 
-// Exporting 'CommentComponent' Variable
-export default CommentComponent;
+// Exporting 'ProductComponent' Variable
+export default ProductComponent;

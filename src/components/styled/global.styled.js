@@ -324,6 +324,7 @@ const GlobalStylesComponent = createGlobalStyle`
   
   a {text-decoration: none;}
   img {pointer-events: none;}
+  button {cursor: pointer;transition: .3s;}
   ul,ol {list-style: none;}
   ul,li,ol,
   h1,h2,h3,h4,h5,h6{margin: 0;padding: 0;}

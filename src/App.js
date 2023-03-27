@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+// Codes By Mahdi Tasha
+// Importing Part
 
-function App() {
+// Exporting Whole App Which is Functional Component As Default
+export default function App() {
+  // returning JSX
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div id="App">
+        <h1>App</h1>
+      </div>
   );
 }
-
-export default App;

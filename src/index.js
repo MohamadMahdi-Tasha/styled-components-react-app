@@ -18,7 +18,11 @@ root.render(
         <React.StrictMode>
             <ThemeProvider theme={{
                 colors: {
-                    slate900: `#0f172a`,
+                    slate900: '#0f172a',
+                    slate800: '#1e293b',
+                    slate600: '#475569',
+                    cyan500: '#06b6d4',
+                    slate400: '#94a3b8'
                 }
             }}>
                 <GlobalStylesComponent />

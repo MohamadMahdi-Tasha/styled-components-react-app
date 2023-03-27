@@ -20,15 +20,19 @@ const appSlice = createSlice({
             price: 110,
             sizes: ["XS","S","M", "L", "XL"],
             selectedSize: "XS",
-            isLiked: false,
             isInBag: false,
             img: productImg
         }
     },
     reducers: {
-        setProductSizes(state, action) {},
-        setProductLiked(state, action) {},
-        setProductWithBag(state, action) {},
+        setProductSizes(state, action) {
+            state.product.selectedSize = action.payload
+        },
+        setProductWithBag(state) {
+            (state.product.isInBag)
+                ? state.product.isInBag = false
+                : state.product.isInBag = true
+        },
     }
 })
 

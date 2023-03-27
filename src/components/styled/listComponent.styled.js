@@ -2,10 +2,10 @@
 // Importing Part
 import styled from 'styled-components';
 
-// Creating Comment Styled Component
+// Creating List Styled Component
 const ListComponent = styled.ul`
     
 `
 
-// Exporting 'ContainerComponent' Variable
+// Exporting 'ListComponent' Variable
 export default ListComponent;

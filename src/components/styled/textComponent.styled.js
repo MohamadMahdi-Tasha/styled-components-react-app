@@ -2,10 +2,10 @@
 // Importing Part
 import styled from 'styled-components';
 
-// Creating Comment Styled Component
+// Creating Text Styled Component
 const TextComponent = styled.h1`
     
 `
 
-// Exporting 'ContainerComponent' Variable
+// Exporting 'TextComponent' Variable
 export default TextComponent;

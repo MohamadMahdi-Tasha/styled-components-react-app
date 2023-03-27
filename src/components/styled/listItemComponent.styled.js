@@ -2,10 +2,10 @@
 // Importing Part
 import styled from 'styled-components';
 
-// Creating Comment Styled Component
+// Creating List Item Styled Component
 const ListItemComponent = styled.li`
     
 `
 
-// Exporting 'ContainerComponent' Variable
+// Exporting 'ListItemComponent' Variable
 export default ListItemComponent;

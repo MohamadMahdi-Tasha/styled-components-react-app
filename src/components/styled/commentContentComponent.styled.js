@@ -11,6 +11,13 @@ const CommentContentComponent = styled.div`
   justify-content: space-between;
   align-items: start;
   gap: 25px;
+  
+  @media (max-width: 991px) {
+    padding: 2rem 0;
+    justify-content: center;
+    align-items: center;
+    h6, p {text-align: center;}
+  }
 `
 
 // Exporting 'CommentContentComponent' Variable

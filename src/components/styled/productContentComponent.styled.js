@@ -10,6 +10,10 @@ const ProductContentComponent = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
+
+  @media (max-width: 991px) {
+    gap: 20px;
+  }
 `
 
 // Exporting 'ProductContentComponent' Variable

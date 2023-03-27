@@ -9,6 +9,10 @@ const ProductComponent = styled.div`
   background-color: ${({theme}) => theme.colors.slate800};
   overflow: hidden;
   display: flex;
+
+  @media (max-width: 991px) {
+    flex-direction: column;
+  }
 `
 
 // Exporting 'ProductComponent' Variable

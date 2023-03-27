@@ -9,6 +9,8 @@ const CommentComponent = styled.div`
   overflow: hidden;
   display: flex;
   margin-bottom: 40px;
+
+  @media (max-width: 991px) {  flex-direction: column;  }
 `
 
 // Exporting 'CommentComponent' Variable

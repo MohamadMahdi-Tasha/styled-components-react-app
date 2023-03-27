@@ -8,6 +8,7 @@ const TextComponent = styled.h6`
     font-weight: ${({fontWeight}) => fontWeight};
     color: ${({color}) => color};
     margin-bottom: ${({marginBottom}) => `${marginBottom}px`};
+    margin-top: ${({marginTop}) => `${marginTop}px`};
   
     > a {color: ${({theme}) => theme.colors.cyan500};}
 `

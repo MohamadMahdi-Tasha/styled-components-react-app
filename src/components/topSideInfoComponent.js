@@ -9,14 +9,14 @@ export default function TopSideInfoComponent() {
     // returning JSX
     return(
         <div>
-            <TextComponent fontSize={18} fontWeight={300} color={'white'} marginBottom={10}>This Page Is Made With :</TextComponent>
+            <TextComponent fontSize={18} fontWeight={300} color={'white'} marginTop={0} marginBottom={10}>This Page Is Made With :</TextComponent>
             <ListComponent>
                 <ListItemComponent>React</ListItemComponent>
                 <ListItemComponent>Redux</ListItemComponent>
                 <ListItemComponent>Styled Components</ListItemComponent>
             </ListComponent>
-            <TextComponent fontSize={36} fontWeight={900} color={'white'} marginBottom={10}>By Mahdi Tasha</TextComponent>
-            <TextComponent fontSize={18} fontWeight={300} color={'white'} marginBottom={10}>
+            <TextComponent fontSize={40} fontWeight={900} color={'white'} marginTop={10} marginBottom={18}>By Mahdi Tasha</TextComponent>
+            <TextComponent fontSize={18} fontWeight={300} color={'white'} marginTop={0} marginBottom={10}>
                 Based On Some Components In
                 <a target='_blank' href="https://www.tailwindcss.com">Tailwind Website</a>
             </TextComponent>

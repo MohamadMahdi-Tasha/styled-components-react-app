@@ -3,10 +3,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import { Provider } from "react-redux";
+import appState from "./store";
 
 // Variables
 const rootElement = document.getElementById('root');
 const root = ReactDOM.createRoot(rootElement);
 
-// Rendering Whole App In Strict Mode Of React Into Root Element
-root.render(<React.StrictMode><App /></React.StrictMode>);
+// Rendering Whole App Into Root Element
+root.render(
+    <Provider store={appState}>
+        <React.StrictMode>
+            <App />
+        </React.StrictMode>
+    </Provider>
+);
